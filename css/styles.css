@@ -80,6 +80,7 @@ ul {
   color: #2e2f42;
   padding: 24px 0;
   text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .active::after {
@@ -110,6 +111,7 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-link:hover,
 .address-link:focus {
@@ -163,6 +165,7 @@ ul {
   cursor: pointer;
   margin: 0 auto;
   display: block;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-button:hover,
 .hero-button:focus {
