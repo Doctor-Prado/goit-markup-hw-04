@@ -272,6 +272,28 @@ ul {
     0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
+/*social media icons*/
+.social-media-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.social-media-icons {
+  width: 40px;
+  height: 40px;
+}
+.social-media-icons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+
+/**/
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
